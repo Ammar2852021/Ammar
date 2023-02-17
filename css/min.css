@@ -300,10 +300,10 @@ background-size: cover;
 background-position: center center;
 /* filter:contrast(80%); */
 }
-.one{background-image: url(/images/me.jpg);}
-.tow{background-image: url(/images/photo_2023-02-17_19-55-20.jpg);}
-.thre{background-image: url(/images/pr.jpg);}
-.for{background-image: url(/images/programming\ .jpg);}
+.one{background-image: url(/Ammar/images/me.jpg);}
+.tow{background-image: url(/Ammar/images/photo_2023-02-17_19-55-20.jpg);}
+.thre{background-image: url(/Ammar/images/pr.jpg);}
+.for{background-image: url(/Ammar/images/programming\ .jpg);}
 
 .BOX p {margin: 10px; letter-spacing: 1px; font-size: large;}
 
@@ -312,11 +312,11 @@ li .h3{color: #5c5e6e;  font-size: x-large; display: inline-block;margin-bottom:
 .h4{color: #5c5e6e;margin: 10px;font-size: 50px;letter-spacing: 2px;}
 
 .profile-img{
-background-image: url(/images/pr.jpg);
+background-image: url(/Ammar/images/pr.jpg);
 background-size: cover;}
 
 .status-img{
-    background-image: url(/images/pr.jpg);
+    background-image: url(/Ammar/images/pr.jpg);
     background-size: cover;
 
 }
