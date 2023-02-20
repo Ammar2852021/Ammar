@@ -244,8 +244,8 @@ body {
   height: 40vh;
   min-height: 250px;
   max-height: 350px;
-  z-index: 1;
-}
+  z-index: 1;}
+
 .profile-cover {
   position: absolute;
   top: 0;
@@ -254,8 +254,30 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 4px;
-}
+  background-image: url(https://cdn.dribbble.com/users/114896/screenshots/4824007/media/3d3cdf10fefbac209b70bda3284ef7de.gif?compress=1&resize=768x576&vertical=top);
+  background-size: cover;
+  transition-duration: 1s;
+  border-radius: 4px;}
+  
+  .background{width: 7%;
+  height: 20vh;
+  float: right;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;}
+
+  .background-img{
+    margin: 10px;
+     border-radius: 50%;
+     width: 25px;
+      height: 25px;
+    cursor: pointer;}
+
+    #bione{background-image: url(/images/pexels-joão-vítor-heinrichs-5022456.jpg); background-size: cover;}
+    #bitow{background-image: url(/images/pexels-jeremy-bishop-2923595.jpg); background-size: cover;}
+    #bithre{background-image: url(/images/pexels-francesco-ungaro-2325446.jpg); background-size: cover;}
+
+    #bione,#bitow,#bithre{border: solid 3px #181d2f;}
 
 .profile-menu {
   position: absolute;
@@ -320,9 +342,11 @@ body {
   padding-left: 20px;
 }
 @media screen and (max-width: 768px) {
-  .img{
-    background-position: center center; 
-    }
+
+  .img{background-position: center center; }
+
+.background{width: 10%;}
+.background-img{width: 20px; height: 20px;}
   /* .rect {
     width: 150px;
     height: 70px;
