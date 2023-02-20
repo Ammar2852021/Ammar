@@ -863,8 +863,12 @@ body {
   top: 13px;
   right: 12px;
 }
+
+
+
 .right-side-button svg {
   width: 22px;
+  color: white;
 }
 @media screen and (max-width: 1210px) {
   .right-side-button {
