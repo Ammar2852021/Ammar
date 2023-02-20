@@ -1,22 +1,3 @@
-// const toggleButton = document.querySelector('.dark-light');
-// const colors = document.querySelectorAll('.color');
-
-
-
-// colors.forEach(color => {
-//   color.addEventListener('click', (e) => {
-//     colors.forEach(c => c.classList.remove('selected'));
-//     const theme = color.getAttribute('data-color');
-//     document.body.setAttribute('data-theme', theme);
-//     color.classList.add('selected');
-//   });
-// });
-
-// toggleButton.addEventListener('click', () => {
-//   document.body.classList.toggle('dark-mode');
-// });
-
-
 
 let profile = document.getElementById('profile');
 console.log(profile);
@@ -34,15 +15,15 @@ console.log(bithre);
 
 bione.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
+  profile.style.backgroundImage='url("https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
 })
 
 bitow.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("/images/pexels-jeremy-bishop-2923595.jpg")';
+  profile.style.backgroundImage='url("https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
 })
 
 bithre.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("/images/pexels-francesco-ungaro-2325446.jpg")';
+  profile.style.backgroundImage='url("https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
 })
