@@ -4,11 +4,14 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+text-decoration: none;
 }
 
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  
+  
 }
 
 body {
@@ -499,7 +502,7 @@ margin-right: -40px;
 .pages {
   margin-top: 20px;
   padding: 20px;
-  height: 19.5vh;
+  height: 20vh;
 }
 
 .user {
