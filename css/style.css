@@ -264,7 +264,9 @@ body {
   float: right;
   margin-top: 5vh;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;}
+  grid-template-rows: 1fr 1fr 1fr;
+margin-right: -40px;
+}
 
   .background-img{
     margin: 10px;
@@ -345,8 +347,9 @@ body {
 
   .img{background-position: center center; }
 
-.background{width: 10%;}
+.background{width: 10%;margin-right: -27px;}
 .background-img{width: 20px; height: 20px;}
+
   /* .rect {
     width: 150px;
     height: 70px;
