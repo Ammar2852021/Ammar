@@ -34,7 +34,7 @@ console.log(bithre);
 
 bione.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
+  profile.style.backgroundImage='url("/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
 })
 
 bitow.addEventListener('click',function()

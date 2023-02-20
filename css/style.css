@@ -273,9 +273,9 @@ body {
       height: 25px;
     cursor: pointer;}
 
-    #bione{background-image: url(/images/pexels-joão-vítor-heinrichs-5022456.jpg); background-size: cover;}
-    #bitow{background-image: url(/images/pexels-jeremy-bishop-2923595.jpg); background-size: cover;}
-    #bithre{background-image: url(/images/pexels-francesco-ungaro-2325446.jpg); background-size: cover;}
+    #bione{background-image: url(/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg); background-size: cover;}
+    #bitow{background-image: url(/Ammar/images/pexels-jeremy-bishop-2923595.jpg); background-size: cover;}
+    #bithre{background-image: url(/Ammar/images/pexels-francesco-ungaro-2325446.jpg); background-size: cover;}
 
     #bione,#bitow,#bithre{border: solid 3px #181d2f;}
 
