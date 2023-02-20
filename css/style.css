@@ -70,7 +70,7 @@ body {
 }
 
 .right-side {
-  width: 220px;
+  width: 200px;
   flex-shrink: 0;
   margin-left: auto;
   overflow: auto;
@@ -780,13 +780,7 @@ margin-right: -40px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  margin-left: auto;
-}
-.user-status.offline {
-  background-color: red;
-}
-.user-status.idle {
-  background-color: #dd1c20;
+  margin-left: 10px;
 }
 
 .contacts .username {
