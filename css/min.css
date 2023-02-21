@@ -792,7 +792,7 @@ strong{ margin-left: 10px;}
 
   
 .image-wrapper {
-  border-radius: 12px;
+  border-radius: 4px;
   overflow: hidden;
   width: 100%;
   height: auto;
@@ -864,12 +864,12 @@ strong{ margin-left: 10px;}
 }
 
 .download-area {
-  background-color: #eceffb;
-  border-radius: 12px;
+  background-color: #040b25;
+  border-radius: 8px;
   padding: 8px;
   display: flex;
   align-items: center;
-  margin-top: 12px;
+  margin-top: -1vh;
   cursor: pointer;
 }
 

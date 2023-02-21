@@ -32,7 +32,7 @@ body {
 
 .left-side {
   width: 200px;
-  border-right: 1px solid #272a3a;
+  border-right: 1px solid #040b25;
   display: flex;
   flex-direction: column;
   transition: 0.3s;
@@ -162,7 +162,7 @@ body {
   padding: 0 20px;
   height: 52px;
   flex-shrink: 0;
-  border-top: 1px solid #272a3a;
+  border-top: 1px solid #040b25;
   position: relative;
 }
 .follow-me svg {
@@ -258,11 +258,11 @@ body {
   background-image: url(https://cdn.dribbble.com/users/114896/screenshots/4824007/media/3d3cdf10fefbac209b70bda3284ef7de.gif?compress=1&resize=768x576&vertical=top);
   background-size: cover;
   transition-duration: 1s;
-  border-radius: 4px;}
+  border-radius: 4px 4px 20px 20px; }
   
   .background{width: 7%;
   height: auto;
-margin-left: 35%;
+margin-left: 30%;
   margin-top: 1vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -280,7 +280,7 @@ margin-right: -40px;
     #bitow{background-image: url(https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;}
     #bithre{background-image: url(https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;}
 
-    #bione,#bitow,#bithre{border: solid 3px #181d2f;}
+    #bione,#bitow,#bithre{border: solid 3px #040b25;}
 
 .profile-menu {
   position: absolute;
