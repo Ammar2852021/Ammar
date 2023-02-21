@@ -36,9 +36,9 @@ body {
   display: flex;
   flex-direction: column;
   transition: 0.3s;
-  background: #151728;
   overflow: auto;
   flex-shrink: 0;
+  background-color:var(--app-bg-color);
 }
 @media screen and (max-width: 930px) {
   .left-side.active {
@@ -73,13 +73,11 @@ body {
 }
 
 .right-side {
-  width: 200px;
+  width: 250px;
   flex-shrink: 0;
   margin-left: auto;
   overflow: auto;
   background:#151728;
-  display: flex;
-  flex-direction: column;
 }
 @media screen and (max-width: 1210px) {
   .right-side {
@@ -218,7 +216,7 @@ body {
   height: 5vh;
   width: 100%;
   display: block;
-  background-color: #151728;
+  background-color: var(--app-bg-color);
   border: none;
   padding: 0 54px;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512'%3e%3cpath d='M508.9 478.7L360 330a201.6 201.6 0 0045.2-127.3C405.3 90.9 314.4 0 202.7 0S0 91 0 202.7s91 202.6 202.7 202.6c48.2 0 92.4-17 127.3-45.2L478.7 509c4.2 4.1 11 4.1 15 0l15.2-15.1c4.1-4.2 4.1-11 0-15zm-306.2-116c-88.3 0-160-71.8-160-160s71.7-160 160-160 160 71.7 160 160-71.8 160-160 160z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%235C5D71'/%3e%3c/svg%3e");
@@ -239,7 +237,7 @@ body {
   padding: 20px;
   flex-grow: 1;
   overflow: auto;
-  background-color: var(--border-color);
+  background-color: #040b25;
 }
 
 .profile {
@@ -288,7 +286,7 @@ margin-right: -40px;
   position: absolute;
   bottom: 0;
   padding-left: 200px;
-  background: #151728;
+  background: var(--app-bg-color);
   width: 100%;
   display: flex;
   border-radius: 0 0 4px 4px;
@@ -303,7 +301,7 @@ margin-right: -40px;
 }
 .profile-menu-link.active, .profile-menu-link:hover {
   color: #fff;
-  background: #151728;
+
   border-bottom: 3px solid #1488fa;
 }
 
@@ -321,7 +319,7 @@ margin-right: -40px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 10px solid #151728;
+  border: 10px solid var(--app-bg-color);
 }
 
 .profile-name {
@@ -391,7 +389,7 @@ margin-right: -40px;
 }
 
 .box {
-  background: #151728;
+  background:  #01081f;
   border-radius: 4px;
 }
 
@@ -502,7 +500,7 @@ margin-right: -40px;
 .pages {
   margin-top: 20px;
   padding: 20px;
-  height: 20vh;
+  height: auto;
 }
 
 .user {
