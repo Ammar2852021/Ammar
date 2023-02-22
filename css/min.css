@@ -685,19 +685,17 @@ strong{ margin-left: 10px;}
 
 
 
-.accordion .accordion-item {
+/* .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
-}
-.accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid #03b5d2;
-}
+} */
+
 .accordion button {
   position: relative;
   display: block;
   text-align: left;
   width: 100%;
   padding: 1em 0;
-  color: #7288a2;
+  color: white;
   font-size: 1.15rem;
   font-weight: 400;
   border: none;
@@ -706,21 +704,16 @@ strong{ margin-left: 10px;}
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: #03b5d2;
 }
-.accordion button:hover::after, .accordion button:focus::after {
-  cursor: pointer;
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
-}
+
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
 }
 .accordion button .icon {
   display: inline-block;
   position: absolute;
-  top: 18px;
-  right: 0;
+  top: 3px;
+  right: 12px;
   width: 22px;
   height: 22px;
   border: 1px solid;
@@ -746,9 +739,7 @@ strong{ margin-left: 10px;}
   height: 10px;
   background: currentColor;
 }
-.accordion button[aria-expanded=true] {
-  color: #03b5d2;
-}
+
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
 }
@@ -757,7 +748,13 @@ strong{ margin-left: 10px;}
   max-height: 100vh;
   transition: all 200ms linear;
   will-change: opacity, max-height;
+  color: white;
+  font-size: 1rem;
+letter-spacing: 0.2px;
+font-family: "Open Sans",sans-serif;
 }
+
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
@@ -768,7 +765,7 @@ strong{ margin-left: 10px;}
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;
- 
+
 }
 
 
@@ -799,15 +796,11 @@ strong{ margin-left: 10px;}
   position: relative;
   flex-basis: 48%;
   display: flex;
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
 }
 
-.image-wrapper img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: 0.2s ease-in;
-}
 
 
 
@@ -843,15 +836,7 @@ strong{ margin-left: 10px;}
   background-color: var(--app-bg-color);
 }
 
-.right-area-header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.right-area-header-wrapper .more-action {
-  width: 24px;
-  height: 24px;
-}
+
 
 .download-item-line {
   padding: 12px 0;
@@ -931,7 +916,7 @@ strong{ margin-left: 10px;}
 }
 
 .progress-line {
-  height: 100%;
+  height: 80%;
   width: 2px;
   background-color: #040b25;
   display: flex;
@@ -1148,27 +1133,12 @@ margin-top: .5rem;
   fill: none;
   stroke-width: 1.6;
   stroke-linecap: round;
-  -webkit-animation: progress 1s ease-out forwards;
-          animation: progress 1s ease-out forwards;
+  -webkit-animation: progress 5s ease-out forwards;
+          animation: progress 5s ease-out forwards;
 }
 
 .circular-chart.orange .circle {
-  stroke: #ff9f00;
-}
-.circular-chart.orange .circle-bg {
-  stroke: #776547;
-}
-.circular-chart.blue .circle {
-  stroke: #00cfde;
-}
-.circular-chart.blue .circle-bg {
-  stroke: #557b88;
-}
-.circular-chart.pink .circle {
-  stroke: #ff7dcb;
-}
-.circular-chart.pink .circle-bg {
-  stroke: #6f5684;
+  stroke: #08fdd8;
 }
 
 .percentage {
@@ -1223,7 +1193,7 @@ margin-top: .5rem;
   display: inline-block;
 }
 .bar-progress.applications {
-  background-color: #ff7dcb;
+  background-color: orangered;
 }
 .bar-progress.shortlisted {
   background-color: #00cfde;
@@ -1248,18 +1218,31 @@ margin-top: .5rem;
   border-radius: 50%;
   margin-right: 8px;
 }
-.progress-color.applications {
-  background-color: #ff7dcb;
+.HTML {
+  background-color: orangered;
 }
-.progress-color.shortlisted {
+.CSS {
   background-color: #00cfde;
 }
-.progress-color.on-hold {
-  background-color: #fdac42;
+
+.Java {
+  background-color: yellow;
 }
-.progress-color.rejected {
-  background-color: #ff5c5c;
+.BOOTSTRAP{
+  background-color: #b32ce6;
 }
+
+
+.photoshop{
+
+  background-color:#0e71c8 ;
+}
+
+.GIT{
+
+  background-color:#ff7dcb ;
+}
+
 
 .progress-type {
   color: var(--secondary-color);
