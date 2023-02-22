@@ -609,6 +609,7 @@ background-size: cover;}
 
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
+  color: white;
 }
 .accordion button .icon {
   display: inline-block;
@@ -650,9 +651,9 @@ background-size: cover;}
   transition: all 200ms linear;
   will-change: opacity, max-height;
   color: white;
-  font-size: 1rem;
-letter-spacing: 0.2px;
-font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+
+font-family: system-ui;
 }
 
 
@@ -663,11 +664,12 @@ font-family: "Open Sans",sans-serif;
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
 }
-.accordion .accordion-content p {
-  font-size: 1rem;
-  font-weight: 300;
+/* .accordion .accordion-content p {
+  font-size: 15px;
+  font-weight: 100;
+  color: red;
 
-}
+} */
 
 
 
@@ -1015,8 +1017,8 @@ margin-top: .5rem;
   fill: none;
   stroke-width: 1.6;
   stroke-linecap: round;
-  -webkit-animation: progress 5s ease-out forwards;
-          animation: progress 5s ease-out forwards;
+  -webkit-animation: progress 30s ease-out forwards;
+          animation: progress 30s ease-out forwards;
 }
 
 .circular-chart.orange .circle {

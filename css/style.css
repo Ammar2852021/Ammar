@@ -71,8 +71,7 @@ body {
     opacity: 1;
   }
   .left-side:not(.active) {
-    width: 56px;
-    overflow: hidden;
+display: none;
   }
   .left-side:not(.active) > *:not(.logo):not(.left-side-button) {
     opacity: 0;
@@ -349,6 +348,8 @@ body {
   padding-left: 20px;
 }
 @media screen and (max-width: 768px) {
+
+  .left-side{display: none;}
 
   .img{background-position: center center; }
 
