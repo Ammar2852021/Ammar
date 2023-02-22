@@ -15,17 +15,17 @@ console.log(bithre);
 
 bione.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
+  profile.style.backgroundImage='url("/Ammar/images/pexels-calebe-miranda-793166.jpg")';
 })
 
 bitow.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
+  profile.style.backgroundImage='url("/Ammar/images/pexels-francesco-ungaro-2325446.jpg")';
 })
 
 bithre.addEventListener('click',function()
 {
-  profile.style.backgroundImage='url("https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
+  profile.style.backgroundImage='url("/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
 })
 
 

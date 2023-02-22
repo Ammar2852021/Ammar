@@ -1,3 +1,18 @@
+:root {
+  --app-bg-color: #01081f;
+  --app-bg-body: #040b25;
+  --app-color-text:  #ccc8db;
+}
+
+
+
+
+
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Source+Sans+Pro:300,400,600,700&display=swap");
 * {
   outline: none;
@@ -10,19 +25,19 @@ text-decoration: none;
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  
+  scroll-behavior: smooth;
+
   
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #373e57;
-  color: #ccc8db;
-  overflow: hidden;
-}
+  background-color: var(--app-bg-body);
+  color: var(--app-color-text);
+  overflow: hidden;}
+
 
 .container {
-  background-color: #151728;
   display: flex;
   max-width: 1600px;
   height: 100vh;
@@ -32,7 +47,7 @@ body {
 
 .left-side {
   width: 200px;
-  border-right: 1px solid #040b25;
+  border-right: 1px solid  var(--app-bg-body);
   display: flex;
   flex-direction: column;
   transition: 0.3s;
@@ -77,7 +92,6 @@ body {
   flex-shrink: 0;
   margin-left: auto;
   overflow: auto;
-  background:#151728;
 }
 @media screen and (max-width: 1210px) {
   .right-side {
@@ -98,10 +112,10 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  background-color: #181d2f;
+  background-color: var(--app-bg-body);
 }
 
-.logo {
+/* .logo {
   font-family: "DM Sans", sans-serif;
   font-size: 15px;
   color: #fff;
@@ -113,15 +127,15 @@ body {
   position: sticky;
   top: 0;
   background: linear-gradient(to bottom, #151728 0%, #151728 76%, rgba(21, 23, 40, 0) 100%);
-}
+} */
+
 
 .side-title {
   font-family: "DM Sans", sans-serif;
-  color: var(--body-color);
+  color: #9c9cab;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 30px;
-  margin-top: 3vh;
 }
 
 .side-wrapper {
@@ -140,7 +154,7 @@ body {
 }
 .side-menu a {
   text-decoration: none;
-  color: #9c9cab;
+  color: var(--app-color-text);
   display: flex;
   align-items: center;
 }
@@ -225,7 +239,7 @@ body {
   background-position: 25px 50%;
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
+  font-weight: 100;
 }
 .search-bar input::placeholder {
   color: #5c5d71;
@@ -254,9 +268,10 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-  background-image: url(https://cdn.dribbble.com/users/114896/screenshots/4824007/media/3d3cdf10fefbac209b70bda3284ef7de.gif?compress=1&resize=768x576&vertical=top);
+  object-position: center center;
+  background-image:url(/Ammar/images/col.jpg);
   background-size: cover;
+  background-position: center center;
   transition-duration: 1s;
   border-radius: 4px 4px 20px 20px; }
   
@@ -264,9 +279,9 @@ body {
 
 
 
-    #bione{background-image: url(https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;}
-    #bitow{background-image: url(https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;}
-    #bithre{background-image: url(https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;}
+    #bione{background-image: url(/Ammar/images/pexels-calebe-miranda-793166.jpg); }
+    #bitow{background-image: url(/Ammar/images/pexels-francesco-ungaro-2325446.jpg);}
+    #bithre{background-image: url(/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg);}
 
 
 .profile-menu {
@@ -530,7 +545,7 @@ body {
   border-radius: 20px;
 }
 .status-menu-item.active, .status-menu-item:hover {
-  background-color:var(--border-color);
+  background-color:var(--app-bg-body);
   color: #fff;
 }
 .status-menu-item + .status-menu-item {
