@@ -557,6 +557,9 @@ display: none;
   margin-left: 10px;
 }
 @media screen and (max-width: 500px) {
+  .accordion-content p{font-size:5px;background-color: red;}
+
+
   .status-menu {
     font-size: 14px;
   }
@@ -921,9 +924,7 @@ margin-bottom: 5vh;
     flex-basis:auto;
   } */
 
-  .Me{
-  font-size: xx-small;
-  }
+  .accordion-content p{font-size:12px;}
 
   .profile-avatar {
     top: -25px;
@@ -956,7 +957,7 @@ margin-bottom: 5vh;
   }
 }
 /* @media screen and (max-width: 480px) {
-
+ 
 } */
 ::-webkit-scrollbar {
   width: 0px;
