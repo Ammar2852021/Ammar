@@ -983,6 +983,7 @@ margin-top: .5rem;
   background-color: var(--app-bg-dark);
   padding: 16px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .chart-container.applicants {

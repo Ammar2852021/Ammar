@@ -45,3 +45,38 @@ function toggleAccordion() {
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+
+
+
+
+
+let like = document.getElementById('like');
+console.log(like)
+
+
+let ST = document.getElementById('ST');
+console.log(ST)
+
+
+
+like.addEventListener('click',function()
+{
+
+  like.style.color='#1b86f9'
+ST.innerText=Number(ST.innerText)+1
+
+})
+
+
+
+
+
+
+
+// let Exit = document.getElementById('Exit');
+// Exit.addEventListener('click',function()
+// {
+//   window.alert('mero')
+
+// })

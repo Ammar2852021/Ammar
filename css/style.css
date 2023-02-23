@@ -348,6 +348,10 @@ display: none;
   padding-left: 20px;
 }
 @media screen and (max-width: 768px) {
+  .chart-info-wrapper {
+    flex-shrink: 0;
+    flex-basis:auto;
+  }
 
   .left-side{display: none;}
 
@@ -879,6 +883,10 @@ margin-bottom: 5vh;
   display: none;
 }
 @media screen and (max-width: 930px) {
+
+
+  
+
   .left-side-button {
     display: flex;
     flex-shrink: 0;
@@ -908,6 +916,11 @@ margin-bottom: 5vh;
 }
 
 @media screen and (max-width: 700px) {
+  .chart-info-wrapper {
+    flex-shrink: 0;
+    flex-basis:auto;
+  }
+
   .profile-avatar {
     top: -25px;
     left: 50%;
