@@ -968,8 +968,10 @@ margin-bottom: 5vh;
 
 #accordion-button-1{background-color: #040b25; padding: 10px; border-radius: 30px;}
 
-.accordion-content .Me { margin: 15px; font-family: system-ui; font-size: 16px;
+.accordion-content p { font-family:system-ui; font-size: 16px;
 text-transform: capitalize;
-color: #9c9cab;
+
+color: #eee;
+
 
 }
