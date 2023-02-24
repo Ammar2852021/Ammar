@@ -970,13 +970,15 @@ margin-bottom: 5vh;
 
 #accordion-button-1{background-color: #040b25; padding: 10px; border-radius: 30px;}
 
-.accordion-content p { font-family:system-ui; font-size: 16px;
+.accordion-content li { font-family:system-ui; font-size: 16px;
 
 font-weight: 600;
 color:#a2a4b4 ;
 cursor: pointer;
 
 }
+
+.li{margin-top: 4vh;}
 
 
 .accordion-content p:hover{color: white;}
