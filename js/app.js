@@ -55,8 +55,8 @@ let like = document.getElementById('like');
 console.log(like)
 
 
-let ST = document.getElementById('ST');
-console.log(ST)
+let num = document.getElementById('num');
+console.log(num)
 
 
 

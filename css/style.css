@@ -20,6 +20,7 @@
   margin: 0%;
   padding: 0%;
 text-decoration: none;
+text-transform: capitalize;
 }
 
 html {
@@ -557,7 +558,7 @@ display: none;
   margin-left: 10px;
 }
 @media screen and (max-width: 500px) {
-  .accordion-content p{font-size:5px;}
+  .accordion-content p{font-size:5-px;}
 
 
   .status-menu {
@@ -700,7 +701,7 @@ display: none;
 }
 
 .album-actions {
-  padding: 0 20px 20px;
+  padding: 0 35px 20px;
 }
 
 .album-action {
@@ -924,7 +925,7 @@ margin-bottom: 5vh;
     flex-basis:auto;
   } */
 
-  .accordion-content p{font-size:12px;}
+  /* .accordion-content p {font-size:0%; color: red;} */
 
   .profile-avatar {
     top: -25px;
@@ -957,7 +958,8 @@ margin-bottom: 5vh;
   }
 }
 /* @media screen and (max-width: 480px) {
- 
+
+    
 } */
 ::-webkit-scrollbar {
   width: 0px;
@@ -969,9 +971,12 @@ margin-bottom: 5vh;
 #accordion-button-1{background-color: #040b25; padding: 10px; border-radius: 30px;}
 
 .accordion-content p { font-family:system-ui; font-size: 16px;
-text-transform: capitalize;
 
-color: #eee;
-
+font-weight: 600;
+color:#a2a4b4 ;
+cursor: pointer;
 
 }
+
+
+.accordion-content p:hover{color: white;}

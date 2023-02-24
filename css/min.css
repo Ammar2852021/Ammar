@@ -609,10 +609,15 @@ background-size: cover;}
 
 .accordion button .accordion-title {
   /* padding: 1em 1.5em 1em 0; */
-  color:#9c9cab;
+  color:#a2a4b4;
   font-size: 16px;
   margin-left: 10px;
+  font-weight: 600;
 }
+
+.accordion button .accordion-title:hover{color:white;}
+
+
 .accordion button .icon {
   display: inline-block;
   position: absolute;
