@@ -285,6 +285,7 @@ display: none;
   .background-img{background-color: #01081f; margin: 10px; border-radius: 50%;width: 25px;height: 25px; 
   border: 2px solid var(--app-bg-body);
   cursor: pointer;
+  background-size: cover;
   }
 
 
