@@ -594,8 +594,8 @@ display: none;
   padding: 0 20px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #272a3a;
-  padding-bottom: 20px;
+  border-bottom: 1px solid var(--app-bg-body);
+  padding-bottom: 3px;
   flex-wrap: wrap;
 }
 
@@ -607,6 +607,7 @@ display: none;
   margin-top: 15px;
   color: #fff;
   max-width: calc(100% - 70px);
+  width: 80%;
 }
 .status-textarea::placeholder {
   color: #5c5d71;
@@ -644,9 +645,9 @@ display: none;
   color: #fff;
   border-radius: 4px;
   padding: 10px 20px;
-  margin-left: auto;
-
+position: absolute;
   cursor: pointer;
+  /* margin-left: 5vh; */
 }
 
 .album {
@@ -994,3 +995,8 @@ cursor: pointer;
 
 
 .accordion-content p:hover{color: white;}
+
+
+
+
+.Shar{width: 100%; height: auto; background-color: red;display: grid; grid-template-columns: 4fr 1fr;position: relative;}

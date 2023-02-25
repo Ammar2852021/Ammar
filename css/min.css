@@ -924,11 +924,12 @@ font-weight: 500; */
 color: #9c9cab;
 margin-top: 5vh;
 transition: 0.15s ease;
+
 }
 
-.vertical-tabs svg{   
- color: white;
-}
+/* .vertical-tabs svg{   
+ 
+} */
 
 /* .vertical-tabs a:hover,.vertical-tabs a:focus, .vertical-tabs a.active {
 background-color: #040b25;
@@ -941,7 +942,7 @@ margin-top: .5rem;
 
 
 
-
+#form{width: 100%;}
 
 
 
