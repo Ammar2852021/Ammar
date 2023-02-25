@@ -88,19 +88,26 @@ ST.innerText=Number(ST.innerText)+1
 
 
 
-// let Certificate = document.getElementById("Certificate");
-// console.log(Certificate);
+let Certificate = document.getElementById("Certificate");
+console.log(Certificate);
 
-// let Cer = document.getElementById("Cer");
-// console.log(Cer);
+let Cer = document.getElementById("Cer");
+console.log(Cer);
 
 
-// Certificate.addEventListener('click',function()
-// {
+Certificate.addEventListener('click',function()
+{
 
-//   Cer.style.color='red'
+    Cer.classList.toggle('x');
+    
+    Certificate.classList.toggle('mero');
+})
 
-// })
+
+
+
+
+
 
 let form= document.querySelector("form");
 let chatArea = document.querySelector("#chat-area"); 
