@@ -107,7 +107,7 @@ let chatArea = document.querySelector("#chat-area");
 let inputMessage = document.querySelector("#message");
 
 async function getBotAnswers () {
-const responsText = await fetch("/js/bot_answer.json");
+const responsText = await fetch("/Ammar/js/bot_answer.json");
 const data = await responsText.json();
 form.onsubmit = (e) => {
 e.preventDefault();
