@@ -1,78 +1,56 @@
-
-let profile = document.getElementById('profile');
+let profile = document.getElementById("profile");
 console.log(profile);
 
-let bione = document.getElementById('bione');
+let bione = document.getElementById("bione");
 console.log(bione);
 
-let bitow = document.getElementById('bitow');
+let bitow = document.getElementById("bitow");
 console.log(bitow);
 
-let bithre = document.getElementById('bithre');
+let bithre = document.getElementById("bithre");
 console.log(bithre);
 
+bione.addEventListener("click", function () {
+  profile.style.backgroundImage =
+    'url("/Ammar/images/pexels-calebe-miranda-793166.jpg")';
+});
 
+bitow.addEventListener("click", function () {
+  profile.style.backgroundImage =
+    'url("/Ammar/images/pexels-francesco-ungaro-2325446.jpg")';
+});
 
-bione.addEventListener('click',function()
-{
-profile.style.backgroundImage='url("/Ammar/images/pexels-calebe-miranda-793166.jpg")';
-})
-
-bitow.addEventListener('click',function()
-{
-profile.style.backgroundImage='url("/Ammar/images/pexels-francesco-ungaro-2325446.jpg")';
-})
-
-bithre.addEventListener('click',function()
-{
-profile.style.backgroundImage='url("/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
-})
-
-
+bithre.addEventListener("click", function () {
+  profile.style.backgroundImage =
+    'url("/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg")';
+});
 
 const items = document.querySelectorAll(".accordion button");
 
 function toggleAccordion() {
-const itemToggle = this.getAttribute('aria-expanded');
+  const itemToggle = this.getAttribute("aria-expanded");
 
-for (i = 0; i < items.length; i++) {
-items[i].setAttribute('aria-expanded', 'false');
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute("aria-expanded", "false");
+  }
+
+  if (itemToggle == "false") {
+    this.setAttribute("aria-expanded", "true");
+  }
 }
 
-if (itemToggle == 'false') {
-this.setAttribute('aria-expanded', 'true');
-}
-}
+items.forEach((item) => item.addEventListener("click", toggleAccordion));
 
-items.forEach(item => item.addEventListener('click', toggleAccordion));
+let like = document.getElementById("like");
+console.log(like);
 
+let num = document.getElementById("num");
+console.log(num);
 
-
-
-
-
-let like = document.getElementById('like');
-console.log(like)
-
-
-let num = document.getElementById('num');
-console.log(num)
-
-
-
-like.addEventListener('click',function()
-{
-
-like.style.color='#1b86f9'
-ST.innerText=Number(ST.innerText)+1
-
-})
-
-
-
-
-
-
+like.addEventListener("click", function () {
+  like.style.color = "#1b86f9";
+  ST.innerText = Number(ST.innerText) + 1;
+});
 
 // let Exit = document.getElementById('Exit');
 // Exit.addEventListener('click',function()
@@ -82,45 +60,30 @@ ST.innerText=Number(ST.innerText)+1
 // })
 
 
-
-
-
-
-
-
 let Certificate = document.getElementById("Certificate");
 console.log(Certificate);
 
 let Cer = document.getElementById("Cer");
 console.log(Cer);
 
-
-Certificate.addEventListener('click',function()
-{
-
-    Cer.classList.toggle('x');
-    
-    Certificate.classList.toggle('mero');
-})
+Certificate.addEventListener("click", function () {
+  Cer.classList.toggle("color");
 
 
+});
 
-
-
-
-
-let form= document.querySelector("form");
-let chatArea = document.querySelector("#chat-area"); 
+let form = document.querySelector("form");
+let chatArea = document.querySelector("#chat-area");
 let inputMessage = document.querySelector("#message");
 
-async function getBotAnswers () {
-const responsText = await fetch("/Ammar/js/bot_answer.json");
-const data = await responsText.json();
-form.onsubmit = (e) => {
-e.preventDefault();
-let inputMessageS = inputMessage.value.trim();
-data.forEach(answer => {
-chatArea.innerHTML+=`
+async function getBotAnswers() {
+  const responsText = await fetch("/Ammar/js/bot_answer.json");
+  const data = await responsText.json();
+  form.onsubmit = (e) => {
+    e.preventDefault();
+    let inputMessageS = inputMessage.value.trim();
+    data.forEach((answer) => {
+      chatArea.innerHTML += `
 <div class="album box BOX" id="About">
 <div class="status-main">
 <div class="status-img"></div>
@@ -133,7 +96,8 @@ chatArea.innerHTML+=`
 <div class="album-content">
 <div class="accordion">
 <div class="accordion-item">
-<button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">${answer =inputMessageS}</span>
+<button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">${(answer =
+        inputMessageS)}</span>
 <span class="icon" aria-hidden="true"></span>
 </button>
 <!-- <div class="accordion-content">
@@ -157,14 +121,9 @@ chatArea.innerHTML+=`
 <path d="M21 13v2a4 4 0 01-4 4H3"></path>
 </svg>2</a>
 </div>
-</div>`});
-inputMessage.value = ""}}getBotAnswers()
-
-
-
-
-
-
-
-
-
+</div>`;
+    });
+    inputMessage.value = "";
+  };
+}
+getBotAnswers();

@@ -1,17 +1,8 @@
 :root {
   --app-bg-color: #01081f;
   --app-bg-body: #040b25;
-  --app-color-text:  #ccc8db;
+  --app-color-text: #ccc8db;
 }
-
-
-
-
-
-
-
-
-
 
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Source+Sans+Pro:300,400,600,700&display=swap");
 * {
@@ -19,24 +10,22 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-text-decoration: none;
-text-transform: capitalize;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
-
-  
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: var(--app-bg-body);
   color: var(--app-color-text);
-  overflow: hidden;}
-
+  overflow: hidden;
+}
 
 .container {
   display: flex;
@@ -48,13 +37,13 @@ body {
 
 .left-side {
   width: 200px;
-  border-right: 1px solid  var(--app-bg-body);
+  border-right: 1px solid var(--app-bg-body);
   display: flex;
   flex-direction: column;
   transition: 0.3s;
   overflow: auto;
   flex-shrink: 0;
-  background-color:var(--app-bg-color);
+  background-color: var(--app-bg-color);
 }
 @media screen and (max-width: 930px) {
   .left-side.active {
@@ -72,7 +61,7 @@ body {
     opacity: 1;
   }
   .left-side:not(.active) {
-display: none;
+    display: none;
   }
   .left-side:not(.active) > *:not(.logo):not(.left-side-button) {
     opacity: 0;
@@ -129,7 +118,6 @@ display: none;
   top: 0;
   background: linear-gradient(to bottom, #151728 0%, #151728 76%, rgba(21, 23, 40, 0) 100%);
 } */
-
 
 .side-title {
   font-family: "DM Sans", sans-serif;
@@ -260,7 +248,8 @@ display: none;
   height: 40vh;
   min-height: 250px;
   max-height: 350px;
-  z-index: 1;}
+  z-index: 1;
+}
 
 .profile-cover {
   position: absolute;
@@ -270,31 +259,42 @@ display: none;
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  background-image:url(/Ammar/images/col.jpg);
+  background-image: url(/Ammar/images/col.jpg);
   background-size: cover;
   background-position: center center;
   transition-duration: 1s;
-  border-radius: 4px 4px 20px 20px; }
-  
- 
-  .background{width: 20%; height: 7vh;  margin-left: 350px; display: grid;
-    margin-top: 1.3vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  } 
+  border-radius: 4px 4px 20px 20px;
+}
 
-  .background-img{background-color: #01081f; margin: 10px; border-radius: 50%;width: 25px;height: 25px; 
+.background {
+  width: 20%;
+  height: 7vh;
+  margin-left: 350px;
+  display: grid;
+  margin-top: 1.3vh;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.background-img {
+  background-color: #01081f;
+  margin: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
   border: 2px solid var(--app-bg-body);
   cursor: pointer;
   background-size: cover;
-  }
+}
 
-
-
-
-    #bione{background-image: url(/Ammar/images/pexels-calebe-miranda-793166.jpg); }
-    #bitow{background-image: url(/Ammar/images/pexels-francesco-ungaro-2325446.jpg);}
-    #bithre{background-image: url(/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg);}
-
+#bione {
+  background-image: url(/Ammar/images/pexels-calebe-miranda-793166.jpg);
+}
+#bitow {
+  background-image: url(/Ammar/images/pexels-francesco-ungaro-2325446.jpg);
+}
+#bithre {
+  background-image: url(/Ammar/images/pexels-joão-vítor-heinrichs-5022456.jpg);
+}
 
 .profile-menu {
   position: absolute;
@@ -305,7 +305,6 @@ display: none;
   display: flex;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
-
 }
 
 .profile-menu-link {
@@ -314,7 +313,8 @@ display: none;
   transition: 0.3s;
   cursor: pointer;
 }
-.profile-menu-link.active, .profile-menu-link:hover {
+.profile-menu-link.active,
+.profile-menu-link:hover {
   color: #fff;
 
   border-bottom: 3px solid #1488fa;
@@ -366,12 +366,17 @@ display: none;
     flex-basis:auto;
   } */
 
-  .left-side{display: none;}
+  .left-side {
+    display: none;
+  }
 
-  .img{background-position: center center; }
+  .img {
+    background-position: center center;
+  }
 
-.background{display: none;}
-
+  .background {
+    display: none;
+  }
 
   /* .rect {
     width: 150px;
@@ -383,18 +388,30 @@ display: none;
 
 
  */
- .grid{display: grid; grid-template-columns:  1fr 1fr ;width: 100%; height: 50vh;}
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 50vh;
+  }
 
- .img{margin: 5px;border-radius: 5px;
- background-size: cover;
- background-position: center center;
- /* filter:contrast(80%); */
- }
-.one{ display: none;}
-.thre{display: none;}
+  .img {
+    margin: 5px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    /* filter:contrast(80%); */
+  }
+  .one {
+    display: none;
+  }
+  .thre {
+    display: none;
+  }
 
- .left-side{display: none;}
-
+  .left-side {
+    display: none;
+  }
 
   .timeline {
     flex-wrap: wrap;
@@ -410,7 +427,7 @@ display: none;
 }
 
 .box {
-  background:  #01081f;
+  background: #01081f;
   border-radius: 4px;
 }
 
@@ -562,16 +579,18 @@ display: none;
   font-weight: 500;
   border-radius: 20px;
 }
-.status-menu-item.active, .status-menu-item:hover {
-  background-color:var(--app-bg-body);
+.status-menu-item.active,
+.status-menu-item:hover {
+  background-color: var(--app-bg-body);
   color: #fff;
 }
 .status-menu-item + .status-menu-item {
   margin-left: 10px;
 }
 @media screen and (max-width: 500px) {
-  .accordion-content p{font-size:5-px;}
-
+  .accordion-content p {
+    font-size: 5-px;
+  }
 
   .status-menu {
     font-size: 14px;
@@ -648,7 +667,7 @@ display: none;
   padding: 10px 20px;
 
   cursor: pointer;
- margin-left: auto;
+  margin-left: auto;
 }
 
 .album {
@@ -689,7 +708,6 @@ display: none;
   object-position: center;
   border-radius: 4px;
   margin-top: 10px;
-
 }
 
 .album-photos {
@@ -783,11 +801,9 @@ display: none;
   justify-content: space-evenly;
   align-items: center;
   position: sticky;
-margin-bottom: 5vh;  
+  margin-bottom: 5vh;
   flex-shrink: 0;
 }
-
-
 
 .stories .user-img {
   border: 2px solid #1771d6;
@@ -885,8 +901,6 @@ margin-bottom: 5vh;
   right: 12px;
 }
 
-
-
 .right-side-button svg {
   width: 22px;
   color: white;
@@ -901,10 +915,6 @@ margin-bottom: 5vh;
   display: none;
 }
 @media screen and (max-width: 930px) {
-
-
-  
-
   .left-side-button {
     display: flex;
     flex-shrink: 0;
@@ -980,34 +990,41 @@ margin-bottom: 5vh;
   border-radius: 10px;
 }
 
-
-
-#accordion-button-1{background-color: #040b25; padding: 10px; border-radius: 30px;margin-top: 2vh;}
-
-.accordion-content li { font-family:system-ui; font-size: 16px;
-
-font-weight: 600;
-color:#a2a4b4 ;
-cursor: pointer;
-
+#accordion-button-1 {
+  background-color: #040b25;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 2vh;
 }
 
-.li{margin-top: 4vh;}
+.accordion-content li {
+  font-family: system-ui;
+  font-size: 16px;
+
+  font-weight: 600;
+  color: #a2a4b4;
+  cursor: pointer;
+}
+
+.li {
+  margin-top: 4vh;
+}
+
+.accordion-content p:hover {
+  color: white;
+}
+
+.Shar {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  position: relative;
+}
 
 
-.accordion-content p:hover{color: white;}
+.color{color: goldenrod;}
 
 
-
-
-.Shar{width: 100%; height: auto; background-color: red;display: grid; grid-template-columns: 4fr 1fr;position: relative;}
-
-
-
-
-
-
-
-.x{display: none;  }
-
-.mero{background-color: red;}
+/* #color{color: red;} */
