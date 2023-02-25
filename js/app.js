@@ -152,3 +152,12 @@ chatArea.innerHTML+=`
 </div>
 </div>`});
 inputMessage.value = ""}}getBotAnswers()
+
+
+
+
+
+
+
+
+

@@ -520,7 +520,7 @@ display: none;
 
 .pages {
   margin-top: 20px;
-  padding: 20px;
+  padding: 3px;
   height: auto;
 }
 
@@ -607,7 +607,8 @@ display: none;
   margin-top: 15px;
   color: #fff;
   max-width: calc(100% - 70px);
-  width: 80%;
+  width: 10%;
+  display: inline-block;
 }
 .status-textarea::placeholder {
   color: #5c5d71;
@@ -645,9 +646,9 @@ display: none;
   color: #fff;
   border-radius: 4px;
   padding: 10px 20px;
-position: absolute;
+
   cursor: pointer;
-  /* margin-left: 5vh; */
+ margin-left: auto;
 }
 
 .album {
