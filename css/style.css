@@ -90,6 +90,7 @@ display: none;
 .right-side {
   width: 80px;
   flex-shrink: 0;
+
   margin-left: auto;
   overflow: auto;
 }
@@ -276,6 +277,16 @@ display: none;
   border-radius: 4px 4px 20px 20px; }
   
  
+  .background{width: 20%; height: 7vh;  margin-left: 350px; display: grid;
+    margin-top: 1.3vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  } 
+
+  .background-img{background-color: #01081f; margin: 10px; border-radius: 50%;width: 25px;height: 25px; 
+  border: 2px solid var(--app-bg-body);
+  cursor: pointer;
+  }
+
 
 
 
