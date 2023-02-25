@@ -821,21 +821,17 @@ font-family: system-ui;
 }
 
 .received-item-line {
-  height: 150px;
+  height: 20vh;
   width: 100%;
-  padding-top: 12px;
-  display: flex;
-  padding-left: 4px;
+margin-top: 5vh;
 }
 
 .progress-line {
-  height: 80%;
+  height: 100%;
   width: 2px;
   background-color: #040b25;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
   position: relative;
+  margin: auto;
 }
 .progress-line:before, .progress-line:after {
   content: "";
@@ -920,24 +916,24 @@ font-family: system-ui;
 .vertical-tabs  a {
 display: flex;
 align-items: center;
-padding: 0.75em 1em;
-background-color: transparent;
-border-radius: 8px;
-text-decoration: none;
-font-weight: 500;
+padding: 0.75em 0.4em;
+/* background-color: transparent; */
+/* border-radius: 8px; */
+/* text-decoration: none;
+font-weight: 500; */
 color: #9c9cab;
-margin-top: 3vh;
+margin-top: 5vh;
 transition: 0.15s ease;
 }
 
-.vertical-tabs svg{    margin-right: 16px;
- color: #9c9cab;
-  width: 16px;}
+.vertical-tabs svg{   
+ color: white;
+}
 
-.vertical-tabs a:hover,.vertical-tabs a:focus, .vertical-tabs a.active {
+/* .vertical-tabs a:hover,.vertical-tabs a:focus, .vertical-tabs a.active {
 background-color: #040b25;
 color: white;
-}
+} */
 
 .vertical-tabs a + * {
 margin-top: .5rem;
