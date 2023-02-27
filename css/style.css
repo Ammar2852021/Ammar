@@ -952,12 +952,12 @@ body {
   /* .accordion-content p {font-size:0%; color: red;} */
 
   .profile-avatar {
-    top: -25px;
-    left: 50%;
-    transform: translatex(-50%);
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    /* top: -25px;
+    left: 50%; */
+    /* transform: translatex(-50%); */
+    /* align-items: center; */
+    /* flex-direction: column;
+    justify-content: center; */
   }
 
   .profile-img {
@@ -966,7 +966,7 @@ body {
   }
 
   .profile-name {
-    margin: 5px 0;
+    margin: 50px 30px;
   }
 
   .profile-menu {
