@@ -976,20 +976,13 @@ width: 100px;}
 
   .About{margin-left: 110px;}
 }
-@media screen and (max-width: 480px) {
-  .profile-name {
-    margin-left: 24px;
-    margin-bottom: 24px;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 600;
-    font-family: "DM Sans", sans-serif;
-}
+/* @media screen and (max-width: 480px) {
+
 
     
-}
+} */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
   border-radius: 10px;
 }
 
