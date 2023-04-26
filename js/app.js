@@ -98,7 +98,6 @@ async function getBotAnswers() {
 <div class="accordion-item">
 <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">${(answer =
         inputMessageS)}</span>
-<span class="icon" aria-hidden="true"></span>
 </button>
 <!-- <div class="accordion-content">
 <a href="#"><img src="/Ammar/images/Screenshot 2023-02-16 155937.png" alt="" class="album-photo"></a>
